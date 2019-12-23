@@ -1,2 +1,0 @@
-# pwb
- blog
