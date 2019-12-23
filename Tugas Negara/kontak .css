@@ -1,0 +1,234 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: verdana, Tahoma, Helvetica;
+    font-size: 12px;
+}
+
+#layout {
+    background: #fff;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    padding: 2px;
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 200px
+}
+
+/*Pengaturan menu*/
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: #800000;
+    position: relative;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    float: left;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    background: #800000;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-shadow: 0 -1px 1px rgba(255, 255, 255, 0);
+}
+
+#menu ul li a:hover {
+    color: white;
+    background: rgb(94, 94, 255);
+}
+
+.search {
+    margin: 0px 0px 0px 365px;
+    background-color: white;
+    background-size: 25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 40px 9px 13px;
+    border: 2px solid #800000;
+}
+
+.button {
+    position: relative;
+    left: -4px;
+    padding: 12px 20px;
+    border: 2px solid #800000;
+    background-color: #800000;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #008080;
+    color: #fafafa;
+}
+
+.button:active {
+    background: #9ACD32;
+}
+
+#sidebar {
+    padding: 10px;
+    width: 27%;
+    background-color: #d3beaa;
+    position: relative;
+    float: right;
+    /*garis putus"*/
+    border-style: dotted;
+    border-width: 1px;
+}
+
+.widged {
+    width: 99%;
+    background-bottom: 5px;
+    background: #ffff;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    font-size: 100%;
+    margin: 0px 0px 5px 0px;
+}
+
+.judulwidged {
+    background: #d74006;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.widged ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+.widged li {
+    padding: 0px 0px 0px 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #3333;
+}
+
+.widged li a {
+    color: #3333;
+    border-bottom: 1px dotted #cccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+
+.widged li a:hover {
+    color: rgb(155, 155, 253);
+}
+
+/*isi*/
+#kontak {
+    padding: 5px;
+    width: 70%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+}
+
+/*position*/
+.tentang {
+    background-color: rgb(240, 240, 240);
+    width: 98%;
+    height: 180px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 30px;
+    background-color: #49494e;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+---- soc_icons {
+    text-align: center;
+}
+
+.soc_icons h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #c0c0c0;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.soc_icons ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.soc_icons ul li:first-child {
+    margin-left: 0;
+}
+
+.soc_icons ul li a {
+    display: block;
+    background: url('../images/soc_icons.png') no-repeat 0px 0px;
+    width: 46px;
+    height: 46px;
+}
+
+.soc_icons ul li a.icon1 {
+    background-position: 0px 0px;
+}
+
+.soc_icons ul li a.icon2 {
+    background-position: -55px 0px;
+}
+
+.soc_icons ul li a.icon3 {
+    background-position: -110px 0px;
+}
+
+.soc_icons ul li a.icon4 {
+    background-position: -166px 0px;
+}
+
+.soc_icons ul li a.icon5 {
+    background-position: -224px 0px;
+}
+
+.soc_icons ul li a:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
